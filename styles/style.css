@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner section styles */
+.banner-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 150px;
+}
+
+.banner-section h3 {
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.banner-section .btn-1 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 17px;
+    opacity: 0.8;
+    border-radius: 8px;
+}
+
+.banner-section1 {
+    text-align: center;
+    background-image: url(../assets/Hero-bg.png);
+    padding: 25px 220px;
+}
+
+.banner-section1-text h2 {
+    font-size: 45px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+
+.banner-section1-text p {
+    font-size: 16px;
+    color: #0D1321;
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+
+.btn-2 {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 20px 24px;
+}
+
+/* Main body styles */
+
+.content {
+    background-color: #FAFAFB;
+    margin: 70px 145px 0;
+    border-radius: 16px;
+}
+
+.content-title {
+    padding: 80px 140px 0;
+    text-align: center;
+}
+
+.content-title h3 {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.content-title p {
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.content-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 48px 95px;
+    padding: 57px 35px;
+    gap: 80px;
+    border-radius: 15px;
+}
+
+.content-body-text h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.content-body-text p {
+    font-size: 15px;
+    color: rgb(13, 19, 33);
+    opacity: 0.8;
+    margin-top: 16px;
+}
+
+.btn-3 {
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.8;
+    margin-top: 30px;
+}
+
+.content1 {
+    margin: 0 145px 150px;
+}
+
+.content2-body-text {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.content2-body-text h3 {
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.content2-body-text p {
+    font-size: 18px;
+    color: rgb(13, 19, 33);
+    opacity: 0.8;
+}
+
+.content2-body {
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin: 0 145px;
+}
+
+.content2-body-link {
+    text-align: center;
+    padding: 32px;
+}
+
+.link{
+    border-radius: 16px;
+}
+
+.content2-title{
+    text-align: center;
+}
+
+.content2-title h3{
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.content2-title p{
+    font-size: 18px;
+    color: rgb(13, 19, 33);
+    opacity: 0.8;
+}
