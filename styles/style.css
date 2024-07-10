@@ -1,3 +1,5 @@
+/* Shared styles */
+
 .azeret-mono-normal {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
@@ -10,7 +12,10 @@
     padding: 0;
 }
 
-/* Banner section styles */
+/* Header section styles */
+
+/* Nav styles */
+
 .banner-section {
     display: flex;
     justify-content: space-between;
@@ -30,6 +35,8 @@
     opacity: 0.8;
     border-radius: 8px;
 }
+
+/* Banner section styles */
 
 .banner-section1 {
     text-align: center;
@@ -61,9 +68,12 @@
 
 /* Main body styles */
 
+/* Why Web Development styles */
+
 .content {
     background-color: #FAFAFB;
-    margin: 70px 145px 0;
+    padding: 80px;
+    margin: 70px 150px;
     border-radius: 16px;
 }
 
@@ -115,6 +125,8 @@
     margin-top: 30px;
 }
 
+/* My Inspiration styles */
+
 .content1 {
     margin: 0 145px 150px;
 }
@@ -131,7 +143,7 @@
 }
 
 .content2-body-text p {
-    font-size: 18px;
+    font-size: 15px;
     color: rgb(13, 19, 33);
     opacity: 0.8;
 }
@@ -255,4 +267,25 @@
     background-color: white;
     font-weight: bold;
     margin-top: 25px;
+}
+
+/* Footer styles */
+
+.footer-section{
+    background-color: #F8F8F8;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+    border-radius: 16px;
+}
+
+.footer-section-text{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer-section-icon a{
+    margin-right: 20px;
 }
