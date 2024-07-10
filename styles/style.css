@@ -78,7 +78,7 @@
 }
 
 .content-title {
-    padding: 80px 140px 0;
+    padding: 0 140px;
     text-align: center;
 }
 
@@ -185,23 +185,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 48px 150px 0;
-    gap: 24px;
+    margin: 45px 150px 0;
+    gap: 22px;
 }
 
 .content3-text-part-section1{
     background-color: #FFF6F4;
     padding: 40px;
+    border-radius: 16px;
 }
 
 .content3-text-part-section2{
     background-color: #F2F6FE;
     padding: 40px;
+    border-radius: 16px;
 }
 
 .content3-text-part-section3{
     background-color: #FFF6F4;
     padding: 40px;
+    border-radius: 16px;
 }
 
 .content3-text-part-section-common h3{
@@ -260,7 +263,7 @@
 }
 
 .content4-submit{
-    padding: 20px 200px 20px 20px;
+    padding: 20px;
     border: none;
     border-radius: 8px;
     font-size: 20px;
