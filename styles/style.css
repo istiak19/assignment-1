@@ -210,3 +210,49 @@
     font-size: 16px;
     font-weight: bold;
 }
+
+/* I need Support styles */
+
+.content4{
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    margin: 45px 150px 0;
+    text-align: center;
+    padding: 48px 64px;
+}
+
+.content4 h4{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.content4 p{
+    font-size: 18px;
+    color: white;
+    margin-top: 16px;
+}
+
+.content4-text{
+    font-size: 18px;
+    color: rgba(13, 19, 33, 0.4);
+    padding: 20px 200px 20px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+
+.content4-submit{
+    padding: 20px 200px 20px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: white;
+    font-weight: bold;
+    margin-top: 25px;
+}
