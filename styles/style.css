@@ -1,3 +1,10 @@
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -140,22 +147,66 @@
     padding: 32px;
 }
 
-.link{
+.link {
     border-radius: 16px;
 }
 
-.content2-title{
+/* My Current Target styles */
+
+.content3-title {
     text-align: center;
 }
 
-.content2-title h3{
+.content3-title h3 {
     font-size: 32px;
     font-weight: bolder;
     margin-bottom: 10px;
 }
 
-.content2-title p{
+.content3-title p {
     font-size: 18px;
     color: rgb(13, 19, 33);
     opacity: 0.8;
+}
+
+.content3-text-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 48px 150px 0;
+    gap: 24px;
+}
+
+.content3-text-part-section1{
+    background-color: #FFF6F4;
+    padding: 40px;
+}
+
+.content3-text-part-section2{
+    background-color: #F2F6FE;
+    padding: 40px;
+}
+
+.content3-text-part-section3{
+    background-color: #FFF6F4;
+    padding: 40px;
+}
+
+.content3-text-part-section-common h3{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 15px 0 8px 0;
+}
+
+.content3-text-part-section-common p{
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+.content3-text-part-section-common a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: bold;
 }
